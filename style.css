@@ -121,7 +121,7 @@ p{
      font-family: 'Poppins', sans-serif;
      
 }
-/* Highlight Sectio end */
+/* Highlight Section end */
 
 /* Footer Section */
 .finish-container{
@@ -151,6 +151,95 @@ p{
 }
 /* Footer Section End*/
 
+/* Media Queries */
+@media only screen and (max-width:688px) {
+    body{
+        
+        overflow-x: hidden;
+        
+    }
+    
+    h2{
+        font-size: 50px;
+        padding-left: 20px;
+        padding-top: 50px;
+        line-height: 70px;
+    }
+    .button{
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 10px 20px;
+    }
+    .fas.fa-arrow-right{
+        font-weight: 300px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
+        }
+        .image img{
+            padding-left: 20px;
+            padding-top: 100px;
+            
+            width: 380px;
+            height: 350px;
+          
+
+        }
+        .top-container{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 30px;
+            
+            
+        }
+        .blog-container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 15px;
+        }
+        .blog-one{
+            width: 300px;
+            height: 474px;
+            padding-left: 5px;
+            top: 742px;
+
+        }
+        p{
+            font-size: 16px;
+        }
+        .highlight{
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        .messi{
+            margin-left: 45px;
+            margin-bottom: 80px;
+        }
+        .my-image img{
+            margin-left: 30px;
+            width: 350px;
+            height: 250px;
+        }
+        .logo img{
+            width: 250px;
+            height: 80px;
+            
+        }
+        .social-icon img{
+            width: 40px;
+            height: 40px;
+            
+        }
+        .finish-container{
+            margin-top: 50px;
+        }
+
+    
+}
 
 
  
